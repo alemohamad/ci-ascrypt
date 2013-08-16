@@ -16,7 +16,7 @@ class ASCrypt
     private $str_key;
     private $debug = FALSE;
 
-    function __construct()
+    public function __construct()
     {
         $this->ci =& get_instance();
         $this->ci->load->config('ascrypt');
